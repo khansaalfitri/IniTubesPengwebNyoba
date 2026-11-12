@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kastok | Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="login-page">
+    <section class="login-card">
+      <div class="brand">
+        <div class="brand-mark">K</div>
+        <div>
+          <h1>Kastok</h1>
+          <p>Inventory & Cashier Management</p>
+        </div>
+      </div>
+
+      <h2>Masuk ke akun</h2>
+      <p class="muted">Masuk menggunakan akun sesuai hak akses.</p>
+
+      <form id="loginForm">
+        <label
+          >Username
+          <input
+            id="username"
+            required
+            autocomplete="username"
+            placeholder="Masukkan username"
+          />
+        </label>
+
+        <label
+          >Password
+          <input
+            id="password"
+            type="password"
+            required
+            autocomplete="current-password"
+            placeholder="Masukkan password"
+          />
+        </label>
+
+        <button class="btn full" type="submit">Login</button>
+        <p id="loginError" class="error"></p>
+      </form>
+
+      <div class="demo">
+        <b>Akun demo</b><br />
+        Pemilik: owner01 / owner123<br />
+        Kasir: kasir01 / kasir123<br />
+        Admin Gudang: gudang01 / gudang123
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </body>
+</html>

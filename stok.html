@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kastok | Manajemen Stok</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <a class="brand side-brand" href="dashboard.html">
+          <div class="brand-mark">K</div>
+          <div>
+            <h2>Kastok</h2>
+            <p>Inventory Management</p>
+          </div>
+        </a>
+        <nav id="navigation"></nav>
+        <div class="side-user">
+          <b id="sideName"></b>
+          <span id="sideRole"></span>
+          <button id="logoutBtn" class="btn btn-ghost full">Logout</button>
+        </div>
+      </aside>
+      <main class="main">
+        <header class="topbar">
+          <div>
+            <h3>Manajemen Stok</h3>
+            <p>Sistem Manajemen Inventaris dan Kasir Toko</p>
+          </div>
+          <div class="user-info">
+            <b id="topName"></b><span id="topRole"></span>
+          </div>
+        </header>
+        <section class="content"><div id="pageContent"></div></section>
+      </main>
+    </div>
+    <div id="modalRoot"></div>
+    <div id="printArea"></div>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </body>
+</html>
